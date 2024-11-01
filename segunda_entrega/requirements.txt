@@ -4,3 +4,5 @@ numpy==2.1.2
 pandas==2.2.3
 psycopg2== 2.9.10
 PyYAML==6.0.2
+scikit-learn==1.5.2
+nltk==3.9.1

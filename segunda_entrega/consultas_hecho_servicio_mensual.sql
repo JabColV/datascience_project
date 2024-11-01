@@ -16,7 +16,7 @@ GROUP BY key_mensajero, solicitud_por_mes_mensajero
 ORDER BY solicitud_por_mes_mensajero DESC;
 
 -- ¿Cuáles son las sedes que más servicios solicitan por cada cliente? --
-SELECT key_sede, key_cliente, COUNT(solicitud_por_mes_sede) AS total_solicitudes
-	FROM public.hecho_servicio_mensual
-	GROUP BY key_sede, key_cliente
-	ORDER BY total_solicitudes DESC;
+-- SELECT key_sede, key_cliente, COUNT(solicitud_por_mes_sede) AS total_solicitudes --
+--	FROM public.hecho_servicio_mensual --
+--	GROUP BY key_sede, key_cliente --
+--	ORDER BY total_solicitudes DESC; --
