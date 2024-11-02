@@ -32,7 +32,7 @@ jupyter kernelspec list
 
 ### 5. Crear un Archivo `config.yml` con la Siguiente Estructura
 
-Crea un archivo llamado `config.yml` en la carpeta `segunda_carpeta` con la siguiente estructura, ajustando los valores según tus configuraciones de base de datos:
+Crea un archivo llamado `config.yml` con la siguiente estructura, ajustando los valores según tus configuraciones de base de datos:
 
 ```yaml
 fuente:
@@ -62,6 +62,7 @@ python main.py
 ### 7.  Ver Resultados
 Una vez que se haya ejecutado main.py, se generará una carpeta llamada outputs. Dentro de esta carpeta, encontrarás los archivos de Jupyter Notebook ya procesados y ejecutados.
 
+> ⚠️ **Nota:** Todas estas instrucciones deben ser ejecutadas desde la carpeta `segunda_entrega`.
 
 
 
