@@ -32,7 +32,7 @@ jupyter kernelspec list
 
 ### 5. Crear un Archivo `config.yml` con la Siguiente Estructura
 
-Crea un archivo llamado `config.yml` en el directorio raíz del proyecto con la siguiente estructura, ajustando los valores según tus configuraciones de base de datos:
+Crea un archivo llamado `config.yml` en la carpeta `segunda_carpeta` con la siguiente estructura, ajustando los valores según tus configuraciones de base de datos:
 
 ```yaml
 fuente:
