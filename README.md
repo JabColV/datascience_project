@@ -30,14 +30,36 @@ Confirma que el kernel python3 está correctamente instalado. Deberías ver la r
 jupyter kernelspec list
 ```
 
-### 5.  Ejecutar el Script Principal para Procesar Notebooks
+### 5. Crear un Archivo `config.yml` con la Siguiente Estructura
+
+Crea un archivo llamado `config.yml` en el directorio raíz del proyecto con la siguiente estructura, ajustando los valores según tus configuraciones de base de datos:
+
+```yaml
+fuente:
+  driver: postgresql
+  port: 5432
+  user: tu_usuario_de_postgres
+  db: nombre_base_de_datos_olap
+  password: contraseña_de_postgres
+  host: localhost
+
+bodega:
+  driver: postgresql
+  port: 5432
+  user: tu_usuario_de_postgres
+  db: nombre_base_de_datos_etl
+  password: contraseña_de_postgres
+  host: localhost
+```
+
+### 6.  Ejecutar el Script Principal para Procesar Notebooks
 Ejecuta el siguiente comando para correr todos los notebooks y cargar la base de datos ETL configurada en config.yml:
 
 ```bash    
 python main.py 
 ```
 
-### 6.  Ver Resultados
+### 7.  Ver Resultados
 Una vez que se haya ejecutado main.py, se generará una carpeta llamada outputs. Dentro de esta carpeta, encontrarás los archivos de Jupyter Notebook ya procesados y ejecutados.
 
 
