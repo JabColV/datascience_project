@@ -21,6 +21,12 @@ FROM public.hecho_servicio_mensual
 GROUP BY key_mensajero, cantidad_solicitud_por_mensajero
 ORDER BY cantidad_solicitud_por_mensajero DESC;
 
+-- Para saber si hay datos duplicados --
+SELECT key_tiempo, key_cliente, key_mensajero, solicitud_por_mes_cliente, cantidad_solicitud_por_mensajero, COUNT(*) AS conteo
+FROM hecho_servicio_mensual
+GROUP BY key_tiempo, key_cliente, key_mensajero, solicitud_por_mes_cliente, cantidad_solicitud_por_mensajero
+HAVING COUNT(*) > 1;
+
 -- ¿Cuáles son las sedes que más servicios solicitan por cada cliente? --
 -- SELECT key_sede, key_cliente, COUNT(solicitud_por_mes_sede) AS total_solicitudes --
 --	FROM public.hecho_servicio_mensual --

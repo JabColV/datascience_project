@@ -14,6 +14,7 @@ notebooks = [
     "dim_tiempo.ipynb",
     "dim_descripcion_novedad.ipynb",
     "hecho_novedades_servicio.ipynb",
+    "hecho_servicio_dia.ipynb",
     "hecho_servicio_mensual.ipynb"
 ]
 
