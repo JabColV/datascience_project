@@ -11,9 +11,11 @@ os.makedirs(output_dir, exist_ok=True)
 notebooks = [
     "dim_cliente.ipynb",
     "dim_mensajero.ipynb",
-    "dim_tiempo.ipynb",
+    "dim_hora.ipynb",
+    "dim_fecha.ipynb",
     "dim_descripcion_novedad.ipynb",
     "hecho_novedades_servicio.ipynb",
+    "hecho_servicio_dia.ipynb",
     "hecho_servicio_mensual.ipynb"
 ]
 
