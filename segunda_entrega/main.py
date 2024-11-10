@@ -16,10 +16,10 @@ notebooks = [
     "dim_descripcion_novedad.ipynb",
     "dim_fase_servicio.ipynb",
     "hecho_novedades_servicio.ipynb",
-    "hecho_servicio_hora.ipynb",
     "hecho_servicio_dia.ipynb",
     "hecho_servicio_mensual.ipynb",
-    "hecho_servicio_fase.ipynb"
+    "hecho_accumulating_snapshot.ipynb",
+    "hecho_servicio_hora.ipynb",
 ]
 
 # Iniciar el temporizador
